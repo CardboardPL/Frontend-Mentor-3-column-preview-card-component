@@ -6,7 +6,7 @@
   flex-direction: row;
   width: clamp(20rem, 90%, 61.33333333333333rem);
   border-radius: 0.5333333333333333rem;
-  margin: 5rem auto 0 auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -80,6 +80,7 @@
   .preview-cards-container {
     flex-direction: column;
     width: 21.33333333333333rem;
+    margin-top: 5rem;
   }
 
   .preview-cards-container li > * {
