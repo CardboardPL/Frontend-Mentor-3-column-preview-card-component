@@ -59,7 +59,8 @@
   transition: background-color 0.15s ease-in-out;
 }
 
-.preview-cards-container .learn-more-btn:hover {
+.preview-cards-container .learn-more-btn:hover,
+.preview-cards-container .learn-more-btn:focus {
   background-color: transparent;
   color: var(--color-very-light-gray);
 }
